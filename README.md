@@ -17,10 +17,10 @@ Este é o repositório do back-end desta aplicação.
 ## 🛠️ Como rodar o back-end localmente
 1. Clone o repositório:
 ```
-git clone
+git clone https://github.com/Yasmin-Carloto/Spendo-Backend.git
 ```
 
-2. Se você não possuir, instale o (Docker Desktop)[https://www.docker.com/products/docker-desktop/].
+2. Se você não possuir, instale o [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 3. Configure o Docker Desktop.
 
@@ -72,8 +72,8 @@ http://localhost:3000/api
 
 ### 📌 Rotas de User
 1. Criar usuário 
-    - Método: `POST
-    - Endpoint: `/users`
+    - Método: POST
+    - Endpoint: /users
     - Body:
       ```
       {
@@ -234,8 +234,8 @@ http://localhost:3000/api
     - Body (opcional):
       ```
       {
-        "name": "Educação Atualizada",
-        "color": "#2980B9"
+        "name": "",
+        "color": ""
       }
       ```
     - Resposta (200 OK):
@@ -243,12 +243,12 @@ http://localhost:3000/api
       {
         "message": "Category updated successfully",
         "category": {
-            "id": 3,
-            "name": "Educação Atualizada",
-            "color": "#2980B9",
+            "id": ,
+            "name": "",
+            "color": "",
             "userId": 1,
-            "createdAt": "2025-07-06T18:30:00.000Z",
-            "updatedAt": "2025-07-06T19:00:00.000Z"
+            "createdAt": "",
+            "updatedAt": ""
         }
       }
       ```
@@ -339,14 +339,14 @@ http://localhost:3000/api
       {
         "transactions": [
             {
-            "id": 3,
-            "title": "Livro",
-            "value": 50.00,
-            "type": "expense",
-            "categoryId": 3,
+            "id": ,
+            "title": "",
+            "value": ,
+            "type": "",
+            "categoryId": ,
             "userId": 1,
-            "createdAt": "2025-07-06T18:20:00.000Z",
-            "updatedAt": "2025-07-06T18:20:00.000Z"
+            "createdAt": "",
+            "updatedAt": ""
             }
         ]
       }
