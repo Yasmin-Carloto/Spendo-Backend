@@ -1,0 +1,6 @@
+node_modules
+*.pyc
+*.lock
+*.sock
+.venv
+mysql_data

@@ -1,0 +1,31 @@
+{
+  "name": "spendo",
+  "version": "1.0.0",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "npx sequelize-cli db:migrate && nodemon nodemon src/loader.js",
+    "production": "pm2 start src/loader.js --name todo-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^4.13.21",
+    "mysql2": "^3.14.1",
+    "node-restful": "^0.2.6",
+    "pm2": "^6.0.8",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3"
+  }
+}
